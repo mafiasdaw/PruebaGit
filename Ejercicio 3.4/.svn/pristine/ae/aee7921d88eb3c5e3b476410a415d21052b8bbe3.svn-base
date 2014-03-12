@@ -1,0 +1,65 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejercicio.pkg3.pkg4;
+
+/**
+ *
+ * @author Max
+ */
+public class Pila_de_fracciones {
+
+   
+       Fraccion pila[]=new Fraccion [9];
+       
+       int  contador;
+   
+   public void push (Fraccion fraccion){
+    pila [contador]=fraccion;   
+        contador++;
+       
+       // este metodo apila (mete) en un orden (el ultimo que entra es el primero que sale)
+       
+       
+   }
+   public void pop (){
+       
+       pila [contador]=null;
+       contador--;
+    
+       
+       // este metodo desapila (saca) 
+       
+   }
+   public void Empty(int contador){
+       //este metodo indica si la pila esta vacia (true & false)
+       if (contador<=0){
+           System.out.println("La pila esta vacia");
+           
+       }else{
+           System.out.println("La pila contiene datos ");
+         
+           
+       }
+       }
+      
+   
+   public void full(int contador){
+
+    if (contador >=10){
+        System.out.println("La pila esta totalmente llena");
+    }else{
+        System.out.println("La pila contiene datos pero no está totalmente llena");
+        
+       // este metodo indica si la pila esta llena 
+     
+   }
+   }
+   public void mostrar(){
+       System.out.println("La pila está " + pila[contador]);
+   
+   }
+}
+
+

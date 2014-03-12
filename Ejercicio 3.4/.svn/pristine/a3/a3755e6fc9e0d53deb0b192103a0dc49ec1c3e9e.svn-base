@@ -1,0 +1,27 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejercicio.pkg3.pkg4;
+
+/**
+ *
+ * @author Max
+ */
+public class MainPila {
+    
+    public static void main(String[] args) {
+        
+       Pila_de_fracciones pila=new Pila_de_fracciones();
+       
+       
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
