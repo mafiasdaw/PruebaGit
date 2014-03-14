@@ -15,7 +15,7 @@ public class Fast {
 
     /**
      * Este es el juego de fast&furius donde se te pedira un numero de jugadores y el nombre de cada uno de ellos. Se tirara un dado y se avanzará segun lo que saques pero tiene dos peculiaridades, El dado tiene dos caras mas de "no avanza" y de " te has chocado, vuelve a empezar", se jugara segun las reglas.
-     * 
+     * xsasdss
      * @param args the command line arguments
      */
     public static void main(String[] args) {
